@@ -1,0 +1,60 @@
+h1{
+    color:crimson;
+}
+.header {
+    padding-left: 30px;
+    background-color: rgb(238, 229, 102);
+    display:flex;
+    justify-content: space-between;
+
+}
+.grid{
+    background-color:rgb(23, 43, 80) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+text-align: center;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+h2{
+    background-color: hotpink;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+position:relative 
+
+}
+a:link{
+color: blueviolet;
+}
+a:visited{
+    color: brown;
+}
+.menu{
+    margin-right: 30px;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
